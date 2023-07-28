@@ -1,12 +1,21 @@
 body {
     background-image: url('images/bg_image.jpg');
     background-attachment: fixed;
+    font-family: Consolas, 'Courier New', Courier, monospace;
+    color:white;
+}
+
+a {
+    color:#0080ff
+}
+
+a:visited {
+    color:#00d0ff
 }
 
 .container {
     width: 860px;
     max-width: 100%;
-    background-color: #69420360;
     margin: auto;
 }
 
@@ -16,10 +25,69 @@ main {
 }
 
 main img {
-    filter: invert(0.75);
-    width:100%;
+    width:100%;    
+}
+
+main h2 {
+    text-align: center;
+    color:#00155c;
+    margin: 10px 0 0 0;
+}
+
+.content, main h2, .project {
+    background-color: #2C384480;
+    padding: 10px;
 }
 
 .left-column, .right-column {
     padding: 10px;
 }
+
+.left-column > *, .right-column > * {
+    margin: 10px 0;
+}
+
+table {
+    border-collapse: collapse;
+    padding: 0;
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+}
+
+td p {
+    margin-top: 0;
+}
+
+
+tr:nth-child(even), .project:nth-child(even) {
+    background-color: #33425180;
+}
+
+hr {
+    opacity: 0.5;
+    border: 0.1px solid;
+}
+
+
+/*#region placeholder css */
+main img {
+    filter: invert(0.75);
+}
+
+.prof-pic img {
+    filter: hue-rotate(90deg);
+}
+
+.project img {
+    filter: hue-rotate(-90deg);
+}
+
+/* .container {    
+    background-color: #ffffff07;
+} */
+
+/*#endregion placeholder css*/
+
