@@ -1,3 +1,25 @@
 body {
     background-image: url('images/bg_image.jpg');
+    background-attachment: fixed;
+}
+
+.container {
+    width: 860px;
+    max-width: 100%;
+    background-color: #69420360;
+    margin: auto;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+main img {
+    filter: invert(0.75);
+    width:100%;
+}
+
+.left-column, .right-column {
+    padding: 10px;
 }
