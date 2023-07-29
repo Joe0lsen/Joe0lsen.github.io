@@ -1,16 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
 body {
+    background-color: black;
     background-image: url('images/bg_image.jpg');
     background-attachment: fixed;
-    font-family: Consolas, 'Courier New', Courier, monospace;
-    color:white;
+    font-family: 'Fira Code', Consolas, Monaco, 'Courier New', Courier, monospace;
+    color:#bfbfbf;
 }
 
-a {
-    color:#0080ff
+a:link {
+    text-decoration: none;
+    color:#5cc3ff;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 a:visited {
-    color:#00d0ff
+    text-decoration:unset;
+    color:#6fe5ff
 }
 
 .container {
@@ -30,16 +39,16 @@ main img {
 
 main h2 {
     text-align: center;
-    color:#00155c;
+    color:#0067ce;
     margin: 10px 0 0 0;
 }
 
-.content, main h2, .project {
-    background-color: #2C384480;
+.content, main h2 {
+    background-color: #2C384460;
     padding: 10px;
 }
 
-.left-column, .right-column {
+.left-column, .right-column, .project {
     padding: 10px;
 }
 
@@ -57,13 +66,17 @@ td {
     padding: 10px;
 }
 
+td:nth-child(1), h3 {
+    color:orange;
+}
+
 td p {
     margin-top: 0;
 }
 
 
 tr:nth-child(even), .project:nth-child(even) {
-    background-color: #33425180;
+    background-color: #33425120;
 }
 
 hr {
