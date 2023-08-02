@@ -6,15 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joe 0lsen</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
     <div class="container">
-        <header><h1>Hello World!</h1></header>
+        <!-- Update header with "joespace" logo -->
+        <header>
+            <img src="images/JoeSpace.png" width="200px" />
+        </header>
         <main>
+            <!-- add profile pic -->
             <div class="left-column">
                 <div class="prof-pic">
-                    <h2>Joe 0lsen</h2>
+                    <div class="heading">
+                        <h2>Joe 0lsen</h2>
+                    </div>
                     <img src="images/bg_image.jpg">
                 </div>
                 <div class="music-player">
@@ -51,7 +58,7 @@
                                 <td>Karate Kid, Good Burger</td>
                             </tr>
                             <tr>
-                                <td>Television</td>
+                                <td>Shows</td>
                                 <td>Cobra Kai, Mandalorian</td>
                             </tr>
                             <tr>
@@ -70,34 +77,56 @@
                 </div>
             </div>
             <div class="right-column">
+                <div class="aboutMe">
+                    <div class="heading"><h2>About Me</h2></div>
+                    <div class="content">
+                        <p>I was first exposed to programming at a young age. I must have been 11 or 12 years old. My father, a self-taught software engineer, had all these thick programming books at home. I picked up the book on Visual Basic .NET and started learning. I had fun being able to control Windows Forms with the power of code.</p>
+                        <p>In my teenage years, I discovered MySpace. The best part about Myspace for me was having the ability to change the CSS to my page.</p>
+                        <p>Also in my teenage years, I was concurrently enrolled in classes at the local community college. My first programming class was Python (it must have been version 2.4 or 2.5). I learned how to write a game. I exceeded the 'A' grade requirements quickly, and added cosmetics and other fun things to the game.</p>
+                    </div>
+                </div>
                 <div class="resume">
                     <div class="heading"><h2>Resumé</h2></div>
                     <div class="content">
                         <table>
-                            <tr>
+                            <tr id="mission">
                                 <td>Mission</td>
-                                <td></td>
+                                <td>Anything that is useful, cool or helpful, I want to help build it!</td>
                             </tr>
-                            <tr>
+                            <tr id="skills">
                                 <td>Skills</td>
                                 <td>
                                     <ul>
-                                        <li>Object Oriented Programming</li>
                                         <li>Data Structures</li>
+                                        <li>Algorithms</li>
+                                        <li>Object Oriented Programming</li>
                                         <li>JavaScript & HTML/CSS</li>
                                         <li>Python</li>
-                                        <li>C#</li>
+                                        <li>C# .NET</li>
                                         <li>MySQL</li>
                                     </ul>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr id="experience">
                                 <td>Experience</td>
-                                <td></td>
+                                <!-- fill out experience -->
+                                <td>
+                                    <ul>
+                                        <li>FedEx Ground<br />
+                                            <i>Operations Coordinator:</i><br />
+                                        I analyze data using Power BI, communicate with with Independent Service Providers on delivery errors, and help ensure that those errors are corrected.</li>
+                                        <li></li>
+                                        <li></li>
+                                        <li>ReliaBuild 3D<br />
+                                            <i>Superviser:</i><br />
+                                        Dove into firmware C++ code and made adjustments to menu system that made user navigation easier, and helped future editors of the code.</li>
+                                    </ul>
+                                </td>
                             </tr>
                         </table>
                     </div>
                 </div>
+                <!-- fill out projects -->
                 <div class="projects">
                     <div class="heading"><h2>Projects</h2></div>
                     <div class="content">
@@ -105,15 +134,15 @@
                             <h3>Project 1</h3>
                             <img src="images/bg_image.jpg" alt="">
                             <p>Description of project</p>
-                            <p><a href="#">Demo Video / GH Pages</a></p>
+                            <p><a href="##">Demo Video / GH Pages</a></p>
                             <p><a href="#">Code</a></p>
                         </div>
                         <div class="project">
-                            <h3>Project 2</h3>
+                            <h3>Tag Game</h3>
                             <img src="images/bg_image.jpg" alt="">
-                            <p>Description of project</p>
+                            <p>Built a 2-player top-down game with peers using C# .NET and Raylib. My focus was on getting controls to work correctly...</p>
                             <p><a href="#">Demo Video / GH Pages</a></p>
-                            <p><a href="#">Code</a></p>
+                            <p><a href="https://github.com/nbird11/tag" target="_blank">Code</a></p>
                         </div>
                         <div class="project">
                             <h3>Project 3</h3>
