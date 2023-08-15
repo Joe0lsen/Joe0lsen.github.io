@@ -9,7 +9,7 @@ body {
 }
 
 .music-player {
-    background-image: linear-gradient(#80808080, #30303080);
+    background-image: linear-gradient(#80808050, #30303070);
     padding: 10px 10px 8px 10px;
     border-radius: 2px;
 }
