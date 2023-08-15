@@ -8,6 +8,12 @@ body {
     color:#bfbfbf;
 }
 
+.music-player {
+    background-image: linear-gradient(#80808080, #30303080);
+    padding: 10px 10px 8px 10px;
+    border-radius: 2px;
+}
+
 .container {
     width: 860px;
     max-width: 100%;
@@ -16,6 +22,7 @@ body {
 
 header img {
     margin-left: 10px;
+    width: 150px;
 }
 
 main {
@@ -104,10 +111,6 @@ tr:nth-child(even), .project:nth-child(even) {
 }
 
 /*#region placeholder css */
-
-.prof-pic img {
-    filter: hue-rotate(90deg);
-}
 
 .project img:hover {
     filter: grayscale(100%) sepia(100%) hue-rotate(120deg) brightness(80%);
